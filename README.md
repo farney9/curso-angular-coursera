@@ -1,3 +1,3 @@
 # curso-angular-coursera-Farney
 
-LEEME
+Link en producción proyecto semana1 --> https://angular-whishlist-eight.vercel.app/
