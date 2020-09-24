@@ -1,3 +1,4 @@
+import { HostBinding } from '@angular/core';
 import { Component, OnInit, Input } from '@angular/core';
 import { DestinoViaje } from '../models/destino-viaje.model';
 
@@ -8,6 +9,8 @@ import { DestinoViaje } from '../models/destino-viaje.model';
 })
 export class DestinoViajeComponent implements OnInit {
   @Input() destino: DestinoViaje;
+  @HostBinding('attr.class') cssClass ="";
+
   constructor() { }
 
   ngOnInit(): void {
